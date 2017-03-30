@@ -8,6 +8,9 @@
   },
   "main": "index.js",
   "description": "jQuery plugin for user friendly query/filter creator",
+  "dependencies" : {
+     "moment": "^2.18.1"    
+  },
   "devDependencies": {
     "deepmerge": "^0.2.0",
     "grunt": "^1.0.0",
