@@ -1,6 +1,8 @@
+dist: jammy
 language: node_js
-node_js:
-  - "16"
+node_js: 18
+cache:
+    npm: true
 before_install:
   - gem install sass
   - gem install scss_lint
