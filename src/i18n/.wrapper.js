@@ -1,6 +1,6 @@
 (function(root, factory) {
     if (typeof define == 'function' && define.amd) {
-        define(['jquery'], factory);
+        define(['jquery', 'query-builder'], factory);
     }
     else {
         factory(root.jQuery);
