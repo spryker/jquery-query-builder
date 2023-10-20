@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 2.7.0
+ * jquery-query-builder 2.7.0-spryker.1
  * Locale: Turkish (tr)
  * Author: Aykut Alpgiray Ateş
  * Licensed under MIT (https://opensource.org/licenses/MIT)

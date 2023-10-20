@@ -32,13 +32,13 @@ const STANDALONE_JS = {
 };
 
 const BANNER = () => `/*!
- * jQuery QueryBuilder ${pkg.version}
+ * jquery-query-builder ${pkg.version}
  * Copyright 2014-${new Date().getFullYear()} Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */`;
 
 const LANG_BANNER = (locale, author) => `/*!
- * jQuery QueryBuilder ${pkg.version}
+ * jquery-query-builder ${pkg.version}
  * Locale: ${locale}
  * Author: ${author}
  * Licensed under MIT (https://opensource.org/licenses/MIT)

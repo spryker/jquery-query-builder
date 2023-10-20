@@ -133,7 +133,7 @@
 
 
 /*!
- * jQuery QueryBuilder 2.7.0
+ * jquery-query-builder 2.7.0-spryker.1
  * Copyright 2014-2023 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (https://opensource.org/licenses/MIT)
  */
@@ -287,7 +287,7 @@ var QueryBuilder = function($el, options) {
     this.status.id = this.$el.attr('id');
 
     // INIT
-    this.$el.addClass('query-builder form-inline');
+    this.$el.addClass('query-builder');
 
     this.filters = this.checkFilters(this.filters);
     this.operators = this.checkOperators(this.operators);
@@ -2822,7 +2822,7 @@ QueryBuilder.templates.group = ({ group_id, level, conditions, icons, settings, 
         </button>
       ` : ''}
       ${level > 1 ? `
-        <button type="button" class="btn btn-xs btn-danger" data-delete="group">
+        <button type="button" class="btn btn-xs btn-danger remove-group" data-delete="group">
           <i class="${icons.remove_group}"></i> ${translate("delete_group")}
         </button>
       ` : ''}
@@ -2849,7 +2849,7 @@ QueryBuilder.templates.rule = ({ rule_id, icons, settings, translate, builder })
 <div id="${rule_id}" class="rule-container">
   <div class="rule-header">
     <div class="btn-group pull-right rule-actions">
-      <button type="button" class="btn btn-xs btn-danger" data-delete="rule">
+      <button type="button" class="btn btn-xs btn-danger remove-rule" data-delete="rule">
         <i class="${icons.remove_rule}"></i> ${translate("delete_rule")}
       </button>
     </div>
@@ -6289,7 +6289,7 @@ QueryBuilder.extend(/** @lends module:plugins.UniqueFilter.prototype */ {
 
 
 /*!
- * jQuery QueryBuilder 2.7.0
+ * jquery-query-builder 2.7.0-spryker.1
  * Locale: English (en)
  * Author: Damien "Mistic" Sorel, http://www.strangeplanet.fr
  * Licensed under MIT (https://opensource.org/licenses/MIT)

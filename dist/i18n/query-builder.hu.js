@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 2.7.0
+ * jquery-query-builder 2.7.0-spryker.1
  * Locale: Hungarian - Magyar (hu)
  * Author: Szabó Attila "Tailor993", https://www.tailor993.hu
  * Licensed under MIT (https://opensource.org/licenses/MIT)

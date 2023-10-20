@@ -1,11 +1,18 @@
 {
-  "name": "jQuery-QueryBuilder",
-  "version": "2.7.0",
+  "name": "@spryker/jquery-query-builder",
+  "version": "2.7.0-spryker.1",
   "author": {
-    "name": "Damien \"Mistic\" Sorel",
-    "email": "contact@git.strangeplanet.fr",
-    "url": "https://www.strangeplanet.fr"
+    "name": "Spryker Sytems GmbH",
+    "email": "info@spryker.com",
+    "url": "http://spryker.com"
   },
+  "contributors": [
+    {
+      "name": "Damien \"Mistic\" Sorel",
+      "email": "contact@git.strangeplanet.fr",
+      "url": "https://www.strangeplanet.fr"
+    }
+  ],
   "description": "jQuery plugin for user friendly query/filter creator",
   "main": "dist/js/query-builder.js",
   "files": [
@@ -17,7 +24,7 @@
     "jquery": "^3.5.1",
     "jquery-extendext": "^1.0.0",
     "moment": "^2.29.1",
-    "sql-parser-mistic": "^1.2.3"
+    "@spryker/sql-parser-mistic": "git://github.com/spryker/spryker-sql-parser.git#feature/cc-29590-update-sql-parser"
   },
   "devDependencies": {
     "alive-server": "^1.3.0",
@@ -46,10 +53,7 @@
   "homepage": "https://querybuilder.js.org",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mistic100/jQuery-QueryBuilder.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mistic100/jQuery-QueryBuilder/issues"
+    "url": "git://github.com/spryker/jquery-query-builder.git"
   },
   "scripts": {
     "build": "node ./build/dist.mjs",

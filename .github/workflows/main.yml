@@ -12,10 +12,9 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: '16'
-          cache: 'yarn'
+          node-version: '18'
 
       - name: build
         run: |
-          yarn install
-          yarn build
+          npm install
+          npm build

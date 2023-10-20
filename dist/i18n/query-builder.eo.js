@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 2.7.0
+ * jquery-query-builder 2.7.0-spryker.1
  * Locale: Esperanto (eo)
  * Author: Robin van der Vliet, https://robinvandervliet.com/
  * Licensed under MIT (https://opensource.org/licenses/MIT)

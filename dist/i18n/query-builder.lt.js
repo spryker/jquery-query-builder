@@ -1,5 +1,5 @@
 /*!
- * jQuery QueryBuilder 2.7.0
+ * jquery-query-builder 2.7.0-spryker.1
  * Locale: Lithuanian (lt)
  * Author: Dalius Guzauskas (aka Tichij), https://lt.linkedin.com/in/daliusg
  * Licensed under MIT (https://opensource.org/licenses/MIT)
