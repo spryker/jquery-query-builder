@@ -5,6 +5,9 @@
 [![Build Status](https://img.shields.io/travis/mistic100/jQuery-QueryBuilder.svg?style=flat-square)](https://travis-ci.org/mistic100/jQuery-QueryBuilder)
 [![Coverage Status](https://img.shields.io/coveralls/mistic100/jQuery-QueryBuilder/master.svg?style=flat-square)](https://coveralls.io/r/mistic100/jQuery-QueryBuilder)
 
+:warning: **DEPRECATED:** This fork is not supported anymore. Please use the official [jQuery QueryBuilder](https://github.com/mistic100/jQuery-QueryBuilder) instead.
+
+
 jQuery plugin offering an simple interface to create complex queries.
 
 [![screenshot](https://raw.githubusercontent.com/mistic100/jQuery-QueryBuilder/master/examples/screenshot.png)](http://querybuilder.js.org)
